@@ -1,0 +1,48 @@
+// Simple product list similar to your web version
+export const PRODUCTS = [
+  {
+    id: '1',
+    name: 'Organic Apples (1kg)',
+    price: 120,
+    category: 'Fruits',
+    image: 'https://picsum.photos/400/400?random=1',
+    description: 'Fresh, crispy and juicy organic apples.',
+    rating: 4.6,
+  },
+  {
+    id: '2',
+    name: 'Brown Bread',
+    price: 45,
+    category: 'Bakery',
+    image: 'https://picsum.photos/400/400?random=2',
+    description: 'Soft whole wheat bread for healthy breakfast.',
+    rating: 4.2,
+  },
+  {
+    id: '3',
+    name: 'Cold Pressed Sunflower Oil (1L)',
+    price: 210,
+    category: 'Groceries',
+    image: 'https://picsum.photos/400/400?random=3',
+    description: 'Pure cold pressed sunflower oil.',
+    rating: 4.8,
+  },
+  {
+    id: '4',
+    name: 'Basmati Rice (5kg)',
+    price: 699,
+    category: 'Groceries',
+    image: 'https://picsum.photos/400/400?random=4',
+    description: 'Long grain basmati rice with rich aroma.',
+    rating: 4.5,
+  },
+  {
+    id: '5',
+    name: 'Premium Milk (1L)',
+    price: 60,
+    category: 'Dairy',
+    image: 'https://picsum.photos/400/400?random=5',
+    description: 'Farm fresh pasteurised milk.',
+    rating: 4.3,
+  },
+];
